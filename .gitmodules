@@ -7,3 +7,6 @@
 [submodule "zsh/eagle.zsh-theme"]
 	path = zsh/eagle.zsh-theme
 	url = https://github.com/neagle/eagle.zsh-theme.git
+[submodule "git/scm_breeze"]
+	path = git/scm_breeze
+	url = git://github.com/ndbroadbent/scm_breeze.git
