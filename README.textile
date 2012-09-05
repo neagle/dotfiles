@@ -1,6 +1,10 @@
+Permissions:
+chmod u+x scm_breeze.sh
 
 Symlinks:
 
 ln -s ~/dotfiles/zsh/oh-my-zsh ~/.oh-my-zsh
 ln -s ~/dotfiles/zsh/eagle.zsh-theme/eagle.zsh-theme ~/dotfiles/zsh/oh-my-zsh/themes/eagle.zsh-theme
 ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+
+ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
