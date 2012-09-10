@@ -1,0 +1,6 @@
+Bundle 'wookiehangover/jshint.vim'
+Bundle 'edsono/vim-matchit'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/surround'
+Bundle 'pangloss/vim-javascript'

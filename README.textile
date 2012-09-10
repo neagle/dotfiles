@@ -8,3 +8,10 @@ ln -s ~/dotfiles/zsh/eagle.zsh-theme/eagle.zsh-theme ~/dotfiles/zsh/oh-my-zsh/th
 ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
+
+ln -s ~/dotfiles/vim ~/.vim
+ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
+
+ln -s ~/dotfiles/jshint/jshintrc ~/.jshintrc
+
+ln -s ~/dotfiles/todo-txt/todo.actions.d ~/.todo.actions.d
