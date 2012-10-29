@@ -1,6 +1,10 @@
-Bundle 'wookiehangover/jshint.vim'
+" original repos on Github
+Bundle 'scrooloose/syntastic'
 Bundle 'edsono/vim-matchit'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-endwise'
-Bundle 'tpope/surround'
 Bundle 'pangloss/vim-javascript'
+Bundle 'tpope/vim-surround'
+Bundle 'timcharper/textile.vim'
+Bundle 'docunext/closetag.vim'
+" vim-scripts repos

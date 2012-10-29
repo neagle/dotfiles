@@ -123,7 +123,7 @@ au BufWinEnter * silent! loadview
 " Fold using markers {{{
 " like this
 " }}}
-set foldmethod=marker
+"set foldmethod=marker
 
 " powerful backspaces
 set backspace=indent,eol,start
@@ -284,10 +284,22 @@ set t_Co=256
 
 set expandtab
 set shiftwidth=4
+
+" Set shiftwidth to 2 for heavily nested filetypes
+autocmd FileType javascript setlocal shiftwidth=2
+autocmd FileType javascript setlocal tabstop=2
+autocmd FileType javascript setlocal softtabstop=2
+autocmd FileType html setlocal shiftwidth=2
+autocmd FileType html setlocal tabstop=2
+autocmd FileType html setlocal softtabstop=2
+autocmd FileType scss setlocal shiftwidth=2
+autocmd FileType scss setlocal tabstop=2
+autocmd FileType scss setlocal softtabstop=2
+
 set softtabstop=4
 set tabstop=4
-"set smarttab
-"set autoindent
+set smarttab
+set autoindent
 
 " Code completion.
 " autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -326,6 +338,12 @@ nnoremap <leader>2 yypVr-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Textile Config
+" Open :TextilePreview() in Chrome rather than Safari
+let g:TextileBrowser="Google Chrome"
+
+" Syntastic Mode
+nnoremap <leader>e :Errors<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Supplemental
